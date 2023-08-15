@@ -1,1 +1,19 @@
+button {
+}
 
+button:hover {
+    background-color:cornflowerblue;
+    animation-name:myHover;
+    animation-duration:2s;
+}
+
+
+@keyframes myHover {
+    from {
+        background-color:ghostwhite;
+    }
+    to {
+        background-color:cornflowerblue;
+        color:ghostwhite;
+    }
+}
